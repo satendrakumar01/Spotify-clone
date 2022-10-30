@@ -11,7 +11,7 @@ const authorizeUser = () => {
     const url = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&response_type=token&redirect_uri=${REDIRECT_URI}&scopes=${scopes}&show_dialog=true`
 
 
-    window.open(url, "login", "width=800 , height=600");
+    window.open(url, "login", "width:800 height:600");
 
 }
 
